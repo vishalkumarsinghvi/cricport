@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_edit_profile_lv_height"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/fragment_edit_profile_iv_profile"
+        android:layout_width="@dimen/fragment_edit_profile_iv_profile_width"
+        android:layout_height="@dimen/fragment_edit_profile_iv_profile_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fragment_edit_profile_margin_top_fragment_for_all"
+        android:src="@drawable/vishal" />
+
+
+    <TextView
+            android:id="@+id/fragment_edit_profile_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_edit_profile_iv_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fragment_edit_profile_margin_top_fragment_for_all"
+            android:background="@drawable/shape"
+            android:text="Vishal jain"
+            android:padding="5dp"/>
+
+
+        <TextView
+            android:id="@+id/fragment_edit_profile_tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_edit_profile_et_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fragment_edit_profile_margin_top_fragment_for_all"
+            android:text="Phone Number"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fragment_edit_profile_et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_edit_profile_tv_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:text="+918128002701"
+            android:padding="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/fragment_edit_profile_tv_mail_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_edit_profile_et_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fragment_edit_profile_margin_top_fragment_for_all"
+            android:text="Email"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/fragment_edit_profile_et_mail_2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/fragment_edit_profile_tv_mail_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fragment_edit_profile_margin_top_fragment_for_all"
+            android:background="@drawable/shape"
+            android:text="vishal221198@gmail.com"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textAlignment="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="About us"
+        android:textSize="30sp"
+        android:background="@drawable/shape"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fragment_edit_profile_et_mail_2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fragment_edit_profile_et_about_us"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:text="This app help you can watch live cricket scores , cricket live photos , live cricket streaming , ICC ratings , cricket scorecards , charts and commentary , Cricket News , Cricket video."
+        android:layout_below="@id/fragment_edit_profile_et_about_us"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cricport</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Cricport Website</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_full_scoreboard">Full Scoreboard</string>
+    <string name="nav_item_icc_rating">ICC Rating</string>
+    <string name="nav_item_live_stream">Live Streaming</string>
+    <string name="nav_item_score">Score</string>
+    <string name="nav_item_photos">Photos</string>
+    <string name="nav_item_video">Video</string>
+    <string name="nav_item_news">News</string>
+    <string name="nav_item_edit">My profile</string>
+    <string name="nav_item_about_us">About Us</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_news</item>
+        <item>@string/nav_item_video</item>
+        <item>@string/nav_item_photos</item>
+        <item>@string/nav_item_score</item>
+        <item>@string/nav_item_live_stream</item>
+        <item>@string/nav_item_icc_rating</item>
+        <item>@string/nav_item_full_scoreboard</item>
+        <item>@string/nav_item_about_us</item>
+    </string-array>
+    <string name="title_edit">About Us</string>
+    <string name="title_full_scoreboard">Full Scoreboard</string>
+    <string name="title_icc_rating">ICC Rating Score</string>
+    <string name="title_live_stream">Live Streaming</string>
+    <string name="title_score">Score</string>
+    <string name="title_photos">Photo</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_news">News</string>
+    <string name="title_activity_fragment_drawer">FragmentDrawer</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+</resources>

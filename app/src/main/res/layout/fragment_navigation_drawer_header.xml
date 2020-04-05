@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frag_nav_drawer_nav_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/black">
+
+
+    <ImageView
+        android:id="@+id/frag_nav_drawer_header_iv_cricport_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cricportlogo" />
+
+    <FrameLayout
+        android:id="@+id/frag_nav_drawer_header_iv_user_image"
+        android:layout_below="@id/frag_nav_drawer_header_iv_cricport_logo"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/view_feed_iv_UserImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/vishal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/circle" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/frag_nav_drawer_header_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/frag_nav_drawer_header_iv_user_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Vishal jain"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    />
+
+
+</RelativeLayout>

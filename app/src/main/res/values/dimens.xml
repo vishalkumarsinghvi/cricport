@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--edit profile-->
+    <dimen name="fragment_edit_profile_lv_height">510dp</dimen>
+
+
+    <dimen name="fragment_edit_profile_btn_update_layout_margin_right">20dp</dimen>
+
+    <dimen name="fragment_edit_profile_btn_update_margin_left">190dp</dimen>
+
+    <dimen name="fragment_edit_profile_iv_profile_width">100dp</dimen>
+    <dimen name="fragment_edit_profile_iv_profile_height">100dp</dimen>
+
+    <dimen name="fragment_edit_profile_btn_update_width">140dp</dimen>
+    <dimen name="fragment_edit_profile_btn_update_height">40dp</dimen>
+
+    <dimen name="fragment_edit_profile_padding_left_for_bnt_update">30dp</dimen>
+
+    <dimen name="fragment_edit_profile_margin_top_fragment_for_all">10dp</dimen>
+
+    <dimen name="fragment_edit_profile_ibtn_back_width">30dp</dimen>
+    <dimen name="fragment_edit_profile_ibtn_back_height">30dp</dimen>
+</resources>
