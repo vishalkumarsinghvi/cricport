@@ -8,12 +8,12 @@ import android.util.Log;
 /**
  * Created by BADE on 21-03-2016.
  */
-public class CheckNetwork {
+class CheckNetwork {
     private static final String TAG = CheckNetwork.class.getSimpleName();
 
 
 
-    public static boolean isInternetAvailable(Context context)
+    static boolean isInternetAvailable(Context context)
     {
         NetworkInfo info = (NetworkInfo) ((ConnectivityManager)
                 context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();

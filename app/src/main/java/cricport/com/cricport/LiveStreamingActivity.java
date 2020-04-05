@@ -31,10 +31,10 @@ public class LiveStreamingActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.scrollTo(0,350);
 //        webView.loadUrl("http://smartcric.com");
-        webView.loadUrl("https://www.facebook.com/video/embed?video_id=292030124564712");
+//        webView.loadUrl("https://www.facebook.com/video/embed?video_id=292030124564712");
 
 
-//        webView.loadUrl("file:///android_asset/livetv.html");
+        webView.loadUrl("file:///android_asset/livetv.html");
 
 //
 //        String myLiveStream = "<html>\n" +
